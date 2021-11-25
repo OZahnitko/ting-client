@@ -1,23 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img alt="logo" src={logo} className="App-logo" style={{ zIndex: 0 }} />
+        <div style={{ zIndex: 1 }}>
+          <p style={{ color: "palevioletred" }}>
+            I ain't never been so frisky before in my whole life!
+          </p>
+          <h1 style={{ color: "palevioletred" }}>DECENT</h1>
+        </div>
       </header>
     </div>
   );
